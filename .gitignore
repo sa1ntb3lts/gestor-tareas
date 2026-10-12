@@ -1,1 +1,15 @@
+.gradle/
+build/
+out/
 
+.vscode/
+.idea/
+*.iml
+
+.DS_Store
+Thumbs.db
+
+.env
+*.local
+
+*.class
