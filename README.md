@@ -2,7 +2,7 @@
 
 ## Integrantes 
 Santiago Beltran Astorga 225203551  
-Cesar Uriel Aguiar Altamirano 225204109
+Cesar Uriel Aguiar Altamirano 225204109  
 Uriel Nahum Santos Vasquez 225204882
 ## Descripción
 ## Requisitos
