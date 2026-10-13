@@ -36,7 +36,7 @@ Gestor de tareas es una aplicación Java de consola que administra tareas person
 Copia éste comando y pégalo en tu terminal: 
 
 ``` text
-https://github.com/sa1ntb3lts/gestor-tareas.git
+git clone https://github.com/sa1ntb3lts/gestor-tareas.git
 ```
 
 ### 2. Ejecutar el código:  
