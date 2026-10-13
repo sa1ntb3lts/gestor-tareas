@@ -58,8 +58,9 @@ gestor-tareas/
 ├── README.md  
 ├── build.gradle  
 ├── gradlew  
-├── gradlew.bat  
-└── practica_guiada_github_intellij.md  
+├── gradlew.bat
+├── practica_guiada_github_intellij.md  
+└── settings.gradle  
 ```
 
 ## Flujo de colaboración <a name="flujodecolaboracion"></a>
