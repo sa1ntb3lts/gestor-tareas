@@ -31,7 +31,29 @@ Gestor de tareas es una aplicación Java de consola que administra tareas person
 
 ## Instalación y ejecución <a name="instalacionyejecucion"></a>
 
+### 1. Clonar el repositorio:
 
+Copia éste comando y pégalo en tu terminal: 
+
+``` text
+https://github.com/sa1ntb3lts/gestor-tareas.git
+```
+
+### 2. Ejecutar el código:  
+
+En la misma terminal, debes asegurarte de estar en la dirección raíz del repositorio (gestor-tareas). Luego, utiliza el comando correspondiente a tu sistema operativo:
+
+**Linux/MacOS:**  
+
+``` text
+./gradlew run
+```
+
+**Windows:**
+
+``` text
+gradlew.bat run
+```
 
 ## Funcionalidades y responsables <a name="funcionalidadesyresponsables"></a>
 
