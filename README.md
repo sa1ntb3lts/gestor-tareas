@@ -38,7 +38,24 @@ Gestor de tareas es una aplicación Java de consola que administra tareas person
 
 ## Estructura del proyecto <a name="estructuradelproyecto"></a>
 
-
+gestor-tareas/
+├── src/
+│   └── main/
+│       └── java/
+│           └── mx/
+│               └── unison
+│                   ├── Gestor.java
+│                   └── Tareas.java
+├── gradle/
+│   └── wrapper/
+│       ├── graddle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── .gitignore
+├── README.md
+├── build.gradle
+├── gradlew
+├── gradlew.bat
+└── practica_guiada_github_intellij.md
 
 ## Flujo de colaboración <a name="flujodecolaboracion"></a>
 
