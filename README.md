@@ -1,9 +1,9 @@
-# Gestor de tareas 📋
+# Gestor de Tareas 📋
 
 ## TABLA DE CONTENIDOS
 
 1. [Integrantes](#integrantes)
-2. [Descripcion](#descripcion)
+2. [Descripción](#descripcion)
 3. [Requisitos](#requisitos)
 4. [Instalación y ejecución](#instalacionyejecucion)
 5. [Funcionalidades y responsables](#funcionalidadesyresponsables)
