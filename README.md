@@ -1,5 +1,9 @@
 # Gestor de tareas
 
+### Tabla de contenidos
+1. [Integrantes] (#Integrantes)
+2. [Requisitos] (#Requisitos)
+
 ## Integrantes
 
 Santiago Beltran Astorga 225203551  
