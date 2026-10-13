@@ -14,9 +14,9 @@
 
 ## Integrantes <a name="integrantes"></a>
 
-Santiago Beltran Astorga 225203551  
-Cesar Uriel Aguiar Altamirano 225204109  
-Uriel Nahum Santos Vasquez 225204882
+Santiago Béltran Astorga 225203551  
+César Uriel Aguiar Altamirano 225204109  
+Uriel Nahúm Santos Vásquez 225204882
 
 ## Descripción <a name="descripcion"></a>
 
@@ -32,7 +32,9 @@ Gestor de tareas es una aplicación Java de consola que administra tareas person
 
 ## Funcionalidades y responsables <a name="funcionalidadesyresponsables"></a>
 
-
+1. Registrar tarea - César Uriel
+2. Listar tareas - Uriel Nahum
+3. Marcar tarea - Santiago
 
 ## Estructura del proyecto <a name="estructuradelproyecto"></a>
 
