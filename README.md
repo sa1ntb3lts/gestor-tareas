@@ -1,5 +1,7 @@
 # Gestor de tareas
 
+Una aplicación Java de consola para administrar tareas.
+
 ### TABLA DE CONTENIDOS
 1. [Integrantes](#integrantes)
 2. [Descripcion](#descripcion)
