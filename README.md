@@ -57,4 +57,4 @@ Gestor de tareas es una aplicación Java de consola que administra tareas person
 5. ¿Por qué se versiona el Gradle Wrapper? **Le da la misma version de Gradle a todos los contribuidores.**
 6. ¿Cómo ayuda el README a que otra persona reproduzca el proyecto? **El README tiene varias funciones, una de ellas es incluir indicaciones sobre como compilar el programa para correrlo.**
 7. ¿Qué aportan las ramas y los pull requests al control de calidad? **Las ramas son muy utiles para no modificar la principal, evitando posibles errores en el codigo. Pull request es para ver si los cambios hechos en otro branch o archivo deberia subirse.**
-8. ¿Cómo se resolvió el conflicto y qué medidas podrían evitar conflictos innecesarios? **No hubo ningun conflicto.**
+8. ¿Cómo se resolvió el conflicto y qué medidas podrían evitar conflictos innecesarios? ****
