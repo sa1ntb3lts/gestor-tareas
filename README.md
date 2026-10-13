@@ -1,19 +1,15 @@
 # Gestor de tareas
 
 ### TABLA DE CONTENIDOS
-1. [Integrantes] (#integrantes)
-2. [Descripcion] (#descripcion)
-3. [Requisitos] (#requisitos)
-4. [Instalacion y ejecucion] (#instalacionyejecucion)
-5. [Funcionalidades y responsables] (#funcionalidadesyresponsables)
-6. [Estructura del proyecto] (#estructuradelproyecto)
-7. [Flujo de colaboracion] (#flujodecolaboracion)
-8. [Pruebas] (#pruebas)
-9. [Preguntas de reflexion] (#preguntasdereflexion)
-10. 
-
-
-
+1. [Integrantes](#integrantes)
+2. [Descripcion](#descripcion)
+3. [Requisitos](#requisitos)
+4. [Instalación y ejecución](#instalacionyejecucion)
+5. [Funcionalidades y responsables](#funcionalidadesyresponsables)
+6. [Estructura del proyecto](#estructuradelproyecto)
+7. [Flujo de colaboración](#flujodecolaboracion)
+8. [Pruebas](#pruebas)
+9. [Preguntas de reflexión](#preguntasdereflexion)
 
 ## Integrantes <a name="integrantes"></a>
 
