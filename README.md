@@ -1,7 +1,5 @@
 # Gestor de tareas
 
-Una aplicación Java de consola para administrar tareas.
-
 ## TABLA DE CONTENIDOS
 
 1. [Integrantes](#integrantes)
@@ -13,7 +11,6 @@ Una aplicación Java de consola para administrar tareas.
 7. [Flujo de colaboración](#flujodecolaboracion)
 8. [Pruebas](#pruebas)
 9. [Preguntas de reflexión](#preguntasdereflexion)
-
 
 ## Integrantes <a name="integrantes"></a>
 
