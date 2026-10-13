@@ -1,44 +1,55 @@
 # Gestor de tareas
 
-### Tabla de contenidos
-1. [Integrantes] (#Integrantes)
-2. [Requisitos] (#Requisitos)
+### TABLA DE CONTENIDOS
+1. [Integrantes] (#integrantes)
+2. [Descripcion] (#descripcion)
+3. [Requisitos] (#requisitos)
+4. [Instalacion y ejecucion] (#instalacionyejecucion)
+5. [Funcionalidades y responsables] (#funcionalidadesyresponsables)
+6. [Estructura del proyecto] (#estructuradelproyecto)
+7. [Flujo de colaboracion] (#flujodecolaboracion)
+8. [Pruebas] (#pruebas)
+9. [Preguntas de reflexion] (#preguntasdereflexion)
+10. 
 
-## Integrantes
+
+
+
+## Integrantes <a name="integrantes"></a>
 
 Santiago Beltran Astorga 225203551  
 Cesar Uriel Aguiar Altamirano 225204109  
 Uriel Nahum Santos Vasquez 225204882
 
-## Descripción
+## Descripción <a name="descripcion"></a>
 
 Gestor de tareas es una aplicación Java de consola que administra tareas personales. Permite registrar una tarea, listar tareas y marcar una tarea como completada.
 
-## Requisitos
+## Requisitos <a name="requisitos"></a>
 
 
 
-## Instalación y ejecución
+## Instalación y ejecución <a name="instalacionyejecucion"></a>
 
 
 
-## Funcionalidades y responsables
+## Funcionalidades y responsables <a name="funcionalidadesyresponsables"></a>
 
 
 
-## Estructura del proyecto
+## Estructura del proyecto <a name="estructuradelproyecto"></a>
 
 
 
-## Flujo de colaboración
+## Flujo de colaboración <a name="flujodecolaboracion"></a>
 
 
 
-## Pruebas
+## Pruebas <a name="pruebas"></a>
 
 
 
-## Preguntas de reflexión
+## Preguntas de reflexión <a name="preguntasdereflexion"></a>
 
 1. ¿Qué diferencia existe entre Git y GitHub? **GitHub es una plataforma para compartir codigo y repositorios, Git es una herramienta de desarrollo de software para controlar versiones.**
 2. ¿Por qué conviene revisar git diff antes de hacer commit? **Para revisar los cambios que se han realizado al repositorio.**
