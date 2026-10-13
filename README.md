@@ -24,7 +24,10 @@ Gestor de tareas es una aplicación Java de consola que administra tareas person
 
 ## Requisitos <a name="requisitos"></a>
 
+- Java Development Kit 
+- Git 
 
+** Las versiones utilizadas durante el desarrollo fueron java 27 y git 2.56.0. **
 
 ## Instalación y ejecución <a name="instalacionyejecucion"></a>
 
