@@ -61,7 +61,10 @@ gestor-tareas/
 
 ## Flujo de colaboración <a name="flujodecolaboracion"></a>
 
-
+- Trabajar en ramas independientes.
+- Commits significativos.
+- Publicar y solicitar revisión.
+- Integrar y resolver conflictos.
 
 ## Pruebas <a name="pruebas"></a>
 
