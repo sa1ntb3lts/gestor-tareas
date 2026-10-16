@@ -19,16 +19,22 @@ public class Gestor {
 		
 		opcion = input.nextInt();
 		
-		if (opcion == 1){
-			registrarTarea();
-		} else if (opcion == 2) {
-			listarTarea();
-		} else if (opcion == 3) {
-			marcarTarea();
-		} else if (opcion == 0) {
-			System.out.println("Adios");
-		} else {
-			System.out.println("ERROR. Input no valido.");
+		switch (opcion) {
+			case 1:
+				registrarTarea();
+				break;
+			case 2:
+				listarTarea();
+				break;
+			case 3:
+				marcarTarea();
+				break;
+			case 0:
+				System.out.println("Adios");
+				break;
+			default:
+				System.out.println("ERROR. Opcion no valida.\n");
+				break;
 		}
 	} while (opcion != 0);
 	
