@@ -15,7 +15,7 @@ public class Gestor {
 		System.out.println("2. Listar tarea");
 		System.out.println("3. Marcar tarea");
 		System.out.println("0. Salir");
-		System.out.println("\n Eliga una opcion: ");
+		System.out.println("\nEliga una opcion: ");
 		
 		opcion = input.nextInt();
 		
