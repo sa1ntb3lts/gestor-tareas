@@ -94,7 +94,7 @@ gestor-tareas/
 
 ## Pruebas <a name="pruebas"></a>
 
-### Evidencia del Pull Request
+### Evidencia de al menos un Pull Request
 
 ![Evidencia Pull Request](pruebas\pullrequest.jpg)
 
