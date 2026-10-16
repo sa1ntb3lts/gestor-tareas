@@ -14,7 +14,7 @@
 
 ## Integrantes <a name="integrantes"></a>
 
-Santiago Béltran Astorga 225203551  
+Santiago Beltrán Astorga 225203551  
 César Uriel Aguiar Altamirano 225204109  
 Uriel Nahúm Santos Vásquez 225204882
 
@@ -27,31 +27,31 @@ Gestor de tareas es una aplicación Java de consola que administra tareas person
 - Java Development Kit 
 - Git 
 
-**Las versiones utilizadas durante el desarrollo fueron java 27 y git 2.56.0.**
+**Las versiones utilizadas durante el desarrollo fueron Java 27 y Git 2.56.0.**
 
 ## Instalación y ejecución <a name="instalacionyejecucion"></a>
 
 ### 1. Clonar el repositorio:
 
-Copia éste comando y pégalo en tu terminal: 
+Copia este comando y pégalo en tu terminal: 
 
-``` text
+```text
 git clone https://github.com/sa1ntb3lts/gestor-tareas.git
 ```
 
 ### 2. Ejecutar el código:  
 
-En la misma terminal, debes asegurarte de estar en la dirección raíz del repositorio (gestor-tareas). Luego, utiliza el comando correspondiente a tu sistema operativo:
+En la misma terminal, debes asegurarte de estar en la dirección raíz del repositorio (`gestor-tareas`). Luego, utiliza el comando correspondiente a tu sistema operativo:
 
 **Linux/MacOS:**  
 
-``` text
+```text
 ./gradlew run
 ```
 
 **Windows:**
 
-``` text
+```text
 gradlew.bat run
 ```
 
@@ -63,19 +63,19 @@ gradlew.bat run
 
 ## Estructura del proyecto <a name="estructuradelproyecto"></a>
 
-``` text
+```text
 gestor-tareas/  
 ├── src/  
-�?  └── main/  
-�?      └── java/
-�?          └── mx/
-�?              └── unison/
-�?                  ├── Gestor.java
-�?                  └── Tarea.java
+│   └── main/  
+│       └── java/
+│           └── mx/
+│               └── unison/
+│                   ├── Gestor.java
+│                   └── Tarea.java
 ├── gradle/  
-�?  └── wrapper/  
-�?      ├── graddle-wrapper.jar  
-�?      └── gradle-wrapper.properties  
+│   └── wrapper/  
+│       ├── gradle-wrapper.jar  
+│       └── gradle-wrapper.properties  
 ├── .gitignore  
 ├── README.md  
 ├── build.gradle  
@@ -94,15 +94,13 @@ gestor-tareas/
 
 ## Pruebas <a name="pruebas"></a>
 
-
-
 ## Preguntas de reflexión <a name="preguntasdereflexion"></a>
 
-1. ¿Qué diferencia existe entre Git y GitHub? **GitHub es una plataforma para compartir codigo y repositorios, Git es una herramienta de desarrollo de software para controlar versiones.**
-2. ¿Por qué conviene revisar git diff antes de hacer commit? **Para revisar los cambios que se han realizado al repositorio.**
-3. ¿Cuál es la diferencia entre commit y push? **Commit sirve para comentar los cambios que se han hecho a ciertos archivos del repositorio, push es para subir los cambios al repositorio.**
-4. ¿Qué función tiene .gitignore y qué limitación presenta? **Es un archivo de configuracion para indicarle al repositorio que archivos se deben de ignorar, pero no los elimina.**
-5. ¿Por qué se versiona el Gradle Wrapper? **Le da la misma version de Gradle a todos los contribuidores.**
-6. ¿Cómo ayuda el README a que otra persona reproduzca el proyecto? **El README tiene varias funciones, una de ellas es incluir indicaciones sobre como compilar el programa para correrlo.**
-7. ¿Qué aportan las ramas y los pull requests al control de calidad? **Las ramas son muy utiles para no modificar la principal, evitando posibles errores en el codigo. Pull request es para ver si los cambios hechos en otro branch o archivo deberia subirse.**
-8. ¿Cómo se resolvió el conflicto y qué medidas podrían evitar conflictos innecesarios? **Agarramos una de las ramas de desarrollo (la que estaba mas avanzada) y la fusionamos al merge. Desarrollar en diferentes ramas es una gran medida.**
+1. ¿Qué diferencia existe entre Git y GitHub? **GitHub es una plataforma para compartir código y repositorios; Git es una herramienta de software para el control de versiones local.**
+2. ¿Por qué conviene revisar `git diff` antes de hacer commit? **Para verificar con precisión cuáles cambios específicos se han realizado antes de confirmarlos.**
+3. ¿Cuál es la diferencia entre commit y push? **Commit guarda y comenta los cambios de forma local, mientras que push sube esos commits al repositorio remoto.**
+4. ¿Qué función tiene `.gitignore` y qué limitación presenta? **Es un archivo de configuración para indicarle a Git qué archivos o carpetas no debe rastrear, pero no elimina archivos que ya hayan sido rastreados previamente.**
+5. ¿Por qué se versiona el Gradle Wrapper? **Para asegurar que todos los desarrolladores utilicen exactamente la misma versión de Gradle de forma reproducible.**
+6. ¿Cómo ayuda el README a que otra persona reproduzca el proyecto? **Proporciona el contexto del proyecto y las instrucciones paso a paso para compilar y ejecutar el programa correctamente.**
+7. ¿Qué aportan las ramas y los pull requests al control de calidad? **Las ramas evitan modificar directamente la rama principal (previniendo errores en código estable) y los pull requests permiten revisar y discutir los cambios antes de integrarlos.**
+8. ¿Cómo se resolvió el conflicto y qué medidas podrían evitar conflictos innecesarios? **Se tomó la rama de desarrollo actualizada y se fusionó a `main`. Trabajar en ramas independientes y mantener la rama local sincronizada son excelentes medidas para evitar conflictos.**
