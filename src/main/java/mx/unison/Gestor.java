@@ -43,15 +43,26 @@ public class Gestor {
 		input.close();
 	}
 
-  public static void registrarTarea() {
-    // TODO: Implementar metodo registrarTarea - Uriel
-  }
+	public static void registrarTarea() {
+		// TODO: Implementar metodo registrarTarea - Uriel
+	}
 
-  public static void listarTarea() {
-    // TODO: Implementar metodo listarTarea - Santos
-  }
+	public static void listarTarea() {
+		// TODO: Implementar metodo listarTarea - Santos
+	}
 
-  public static void marcarTarea() {
-    // TODO: Implementar metodo marcarTarea - Santiago
-  }
+	public static void marcarTarea() {
+		System.out.println("Total de tareas: " + listaTareas.size());
+    
+		System.out.print("Numero de tarea a completar: ");
+		Scanner input = new Scanner(System.in);
+		int indice = input.nextInt() - 1;
+    
+		if (indice >= 0 && index < listaTareas.size()) {
+			listaTareas.get(index).setCompletada(true);
+			System.out.println("Completada");
+		} else {
+			System.out.println("Invalido.");
+		}
+	}
 }
