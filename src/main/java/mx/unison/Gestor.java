@@ -3,43 +3,45 @@ package mx.unison;
 import java.util.Scanner;
 
 public class Gestor {
-  public static void main(String[] args) {    
-    Scanner input = new Scanner(System.in);
+	public static ArrayList<Tarea> listaTareas = new ArrayList<>();
 	
-	int opcion = -1;
+	public static void main(String[] args) {    
+		Scanner input = new Scanner(System.in);
 	
-	do {
-		System.out.println("MENU GESTOR TAREAS");
-		System.out.println("------------------");
-		System.out.println("1. Registrar tarea");
-		System.out.println("2. Listar tarea");
-		System.out.println("3. Marcar tarea");
-		System.out.println("0. Salir");
-		System.out.println("\nEliga una opcion: ");
+		int opcion = -1;
+	
+		do {
+			System.out.println("MENU GESTOR TAREAS");
+			System.out.println("------------------");
+			System.out.println("1. Registrar tarea");
+			System.out.println("2. Listar tarea");
+			System.out.println("3. Marcar tarea");
+			System.out.println("0. Salir");
+			System.out.println("\nEliga una opcion: ");
 		
-		opcion = input.nextInt();
+			opcion = input.nextInt();
 		
-		switch (opcion) {
-			case 1:
-				registrarTarea();
-				break;
-			case 2:
-				listarTarea();
-				break;
-			case 3:
-				marcarTarea();
-				break;
-			case 0:
-				System.out.println("Adios");
-				break;
-			default:
-				System.out.println("ERROR. Opcion no valida.\n");
-				break;
-		}
-	} while (opcion != 0);
+			switch (opcion) {
+				case 1:
+					registrarTarea();
+					break;
+				case 2:
+					listarTarea();
+					break;
+				case 3:
+					marcarTarea();
+					break;
+				case 0:
+					System.out.println("Adios");
+					break;
+				default:
+					System.out.println("ERROR. Opcion no valida.\n");
+					break;
+			}		
+		} while (opcion != 0);
 	
-	input.close();
-  }
+		input.close();
+	}
 
   public static void registrarTarea() {
     // TODO: Implementar metodo registrarTarea - Uriel
