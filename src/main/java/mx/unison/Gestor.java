@@ -6,7 +6,7 @@ public class Gestor {
   public static void main(String[] args) {    
     Scanner input = new Scanner(System.in);
 	
-	int opcion = 1;
+	int opcion = -1;
 	
 	do {
 		System.out.println("MENU GESTOR TAREAS");
