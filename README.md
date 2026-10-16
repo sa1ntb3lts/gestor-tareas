@@ -31,7 +31,7 @@ Gestor de tareas es una aplicación Java de consola que administra tareas person
 
 ## Instalación y ejecución <a name="instalacionyejecucion"></a>
 
-### 1. Clonar el repositorio:
+### 1. Clonar el repositorio
 
 Copia este comando y pégalo en tu terminal: 
 
@@ -39,7 +39,7 @@ Copia este comando y pégalo en tu terminal:
 git clone https://github.com/sa1ntb3lts/gestor-tareas.git
 ```
 
-### 2. Ejecutar el código:  
+### 2. Ejecutar el código
 
 En la misma terminal, debes asegurarte de estar en la dirección raíz del repositorio (`gestor-tareas`). Luego, utiliza el comando correspondiente a tu sistema operativo:
 
@@ -93,6 +93,22 @@ gestor-tareas/
 - Integrar y resolver conflictos.
 
 ## Pruebas <a name="pruebas"></a>
+
+### Evidencia del Pull Request
+
+![Evidencia Pull Request](pruebas\pullrequest.jpg)
+
+### Conflicto
+
+Lo que hizo un integrante del equipo fue crear un branch totalmente aparte del que estaba en main (o sea que no compartía el historial de commits), y así es como se veía la rama main después de que el compañero subiera su rama a main (se ve que ahora está en otra rama pero al principio estaba en main):
+
+![Evidencia Conflicto](pruebas\problema.jpg)
+
+**Así es como se veía el repositorio al momento de lo que hizo el compañero:** https://github.com/sa1ntb3lts/gestor-tareas/tree/b9dd896d69ff167a1c81c1517ccde3ab288e74a0
+
+No se podía hacer pull request porque las ramas eran totalmente diferentes, así que agarramos una de las ramas que todavía contenían el contenido original y forzamos un merge al main.
+
+![Evidencia Solucion](pruebas\solucion.jpg)
 
 ## Preguntas de reflexión <a name="preguntasdereflexion"></a>
 
