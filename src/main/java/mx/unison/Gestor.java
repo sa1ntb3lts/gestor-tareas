@@ -1,5 +1,6 @@
 package mx.unison;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Gestor {
@@ -44,11 +45,23 @@ public class Gestor {
 	}
 
 	public static void registrarTarea() {
-		// TODO: Implementar metodo registrarTarea - Uriel
+		Scanner input = new Scanner(System.in);
+		System.out.print("Descripción de la tarea: ");
+		String descripcion = input.nextLine();
+    
+		listaTareas.add(new Tarea(descripcion));
+		System.out.println("Tarea registrada.");	
 	}
 
 	public static void listarTarea() {
-		// TODO: Implementar metodo listarTarea - Santos
+		if (listaTareas.isEmpty()) {
+			System.out.println("No hay tareas.");
+			return;
+		}
+    
+		for (int i = 0; i < listaTareas.size(); i++) {
+			System.out.println((i + 1) + ". " + listaTareas.get(i));
+		}	
 	}
 
 	public static void marcarTarea() {
@@ -58,8 +71,8 @@ public class Gestor {
 		Scanner input = new Scanner(System.in);
 		int indice = input.nextInt() - 1;
     
-		if (indice >= 0 && index < listaTareas.size()) {
-			listaTareas.get(index).setCompletada(true);
+		if (indice >= 0 && indice < listaTareas.size()) {
+			listaTareas.get(indice).setCompletada(true);
 			System.out.println("Completada");
 		} else {
 			System.out.println("Invalido.");
