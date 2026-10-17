@@ -73,9 +73,10 @@ public class Gestor {
     
 		if (indice >= 0 && indice < listaTareas.size()) {
 			listaTareas.get(indice).setCompletada(true);
-			System.out.println("Completada");
+			System.out.println("Tarea completada correctamente");
 		} else {
 			System.out.println("Invalido.");
 		}
 	}
 }
+
